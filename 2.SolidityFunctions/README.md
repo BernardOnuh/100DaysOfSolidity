@@ -25,12 +25,33 @@ The image below shows the three main components of a Solidity function:
 * Return types
 
 # What are the different types of Solidity functions?
-* View Functions
-* Pure Functions
-* Special Functions
+* # View Functions
+In Solidity, view functions are read-only and cannot alter the state variables defined in a smart contract. The syntax for a view function is as follows:
+` function <function-name>() <access-modifier> view returns() {  // function body } `
+* # Pure Functions
+
+A pure function declares that no state variable will be changed or read. Typically pure functions serve some common utility or calculation. The syntax for a pure function is as follows:
+` function <function-name>() <access-modifier> pure returns() {  // function body } `
+
+* # Special Functions
+
+Solidity has a couple of special functions that you can use when developing a smart contract. Getter and receive functions are important payable functions for smart contracts in Solidity.
+
+
 - Geeter Function
+State variables defined as public have a getter function that is automatically created by the compiler. The function has the same name as the variable and has external visibility.
 - Receive Ether Function
-* Fallback Function
+A contract can have at most one receive function. A receive function cannot have arguments, is unable to return, and must have external visibility and payable state mutability.
+
+A receive function is executed on a call to the contract that sends Ether and does not specify any function. This function is declared as follows:
+
+
+
+`receive() external payable {...}`
+
+* # Fallback Function
+
+In Solidity, a fallback function is an external function without a name, arguments, or return values. Fallback functions are executed when a function identifier doesn't match any of the available functions in a smart contract, or if there was no data supplied along with the function call.
 
 # What is function overloading?
 
@@ -52,9 +73,9 @@ Function visibility helps you control which of the above callers can execute the
 
 The accessibility of the functions decreases from External to Private: public functions are the most accessible and private functions are the least.
 
-External vs. Public 
+# External vs. Public 
 External and public are the two function visibilities that can be called from outside of the contract they are defined within. External means that the function can exclusively be called by other contracts or Externally Owned Accounts (EOA). Public means that the function can be called externally or from within the contract itself.
 
-Internal vs. Private
+# Internal vs. Private
 As opposed to external and public, internal and private both disallow external parties from accessing the function. For a private function, only functions within the same contract can call it. For an internal function, functions within the same contract or functions within derived contracts can call it.
 
