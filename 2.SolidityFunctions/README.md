@@ -1,6 +1,6 @@
 # Solidity Functions
 
-https://media1.tenor.com/images/649cb11ec4e7a08801e107ccbbb94648/tenor.gif?itemid=27526500
+![Alt function](https://media1.tenor.com/images/649cb11ec4e7a08801e107ccbbb94648/tenor.gif?itemid=27526500)
 
 # What are Solidity Functions 
 A function is basically a group of code that can be reused anywhere in the program, which generally saves the excessive use of memory and decreases the runtime of the program. Creating a function reduces the need of writing the same code over and over again. With the help of functions, a program can be divided into many small pieces of code for better understanding and managing.
@@ -16,7 +16,7 @@ A function is basically a group of code that can be reused anywhere in the progr
 
 `function function-name(parameter-list) scope returns() {  // statements} `
 
-https://media1.tenor.com/images/5e44681dc08aaf26ac3f15b5098986d0/tenor.gif?itemid=27526510
+![Alt function](https://media1.tenor.com/images/5e44681dc08aaf26ac3f15b5098986d0/tenor.gif?itemid=27526510)
 
 The image below shows the three main components of a Solidity function:
 
