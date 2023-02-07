@@ -12,9 +12,7 @@ A function is basically a group of code that can be reused anywhere in the progr
 * List any parameters containing the name and data type of the parameter or include no extra parameters
 * Create a statement block surrounded by curly brackets
 
-# function function-name(parameter-list) scope returns() {   
-#		// statements
-# } 
+`function function-name(parameter-list) scope returns() {  // statements} `
 
 The image below shows the three main components of a Solidity function:
 
