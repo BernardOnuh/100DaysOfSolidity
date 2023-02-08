@@ -44,4 +44,13 @@ In this contract, we built one nested mapping, which is referred to as a User. I
 
 * one for recording the information about the id of the specific user
 * one for storing the name and age of the specific user.
-The code block below is a simple getter function, which returns information of the user.
+
+# How to Use Mapping in Solidity
+Here is an example of using mappings in Solidity. The following code snippet functions are:
+
+* Mapping from address to uint and ensures the mapping always returns a value
+* If the value was never set, it will return the default value.
+* Updating the value at the mapped address
+* Resetting the value to the default value.
+* Creating a nested mapping from address to another mapping
+* Getting values from a nested mapping even when it is not initialized
