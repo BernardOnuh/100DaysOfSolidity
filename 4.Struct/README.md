@@ -20,11 +20,11 @@ The following is an example of Solidity struct
 Struct code is similar to how object decleration works in javascript, While the semblance is striking. the syntaxes work differently. A Solidity struct is always in the following format:
 
 > struct name{
-    >string theWord;
-    >uint theFigure;
-    >bool polar;
->}
-
+    string theWord;
+    uint theFigure;
+    bool polar;
+}
+>
 ## Here is how to define and create a Solidity struct
 * Create a struct by writing the **struct keyword** which tells the Solidity complier that the preceding type is a custom type.
 
@@ -42,16 +42,15 @@ There are two places where you can declare structs: within a contract or outside
 ## Declare a Struct Inside a Contract
 
 in the above example , the  struct was declared inside the **Smart Contract** 
-
-[Inside Struct](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/3.Variable/variable.sol)
+[Inside Struct](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/4.Struct/insideStruct.sol)
 
 ## Declare a Struct Outside a Contract
 
-[Outside Struct](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/3.Variable/variable.sol)
+[Outside Struct](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/4.Struct/outsideStruct.sol)
 
 In the above example, the struct was declared outside the smart contract, and all the contracts in the codebase can call it. It is best to declare a struct outside of a smart contract to create a more applicable struct for all of your contracts in contrast to individual contracts, which may have specific structs just for them. 
 
 ## How to Import a Solidity Struct 
 
 Structs can be imported from one smart contract to another, which helps developers save time and create reusable code.
-[importing Struct](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/3.Variable/variable.sol)
+[importing Struct](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/4.Struct/import.sol)
