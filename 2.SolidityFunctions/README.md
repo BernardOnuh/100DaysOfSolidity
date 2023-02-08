@@ -79,3 +79,6 @@ External and public are the two function visibilities that can be called from ou
 # Internal vs. Private
 As opposed to external and public, internal and private both disallow external parties from accessing the function. For a private function, only functions within the same contract can call it. For an internal function, functions within the same contract or functions within derived contracts can call it.
 
+# CHECK OUT HOW IT IS USED
+[Functions](https://github.com/BernardOnuh/100DaysOfSolidity/tree/main/2.SolidityFunctions)
+

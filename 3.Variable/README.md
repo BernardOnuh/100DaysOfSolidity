@@ -15,7 +15,7 @@ e.g ` Bernard123 isn't same with bernard123 `
 In Solidity declaratiojnof variables is a little bit different,to declare a variable the user has to specify data type first followed by access modifier.
 
 # Syntax
-<type> <access modifier> <variable name> ;
+type access modifier variable-name ;
 
 # Example 
 `uint public uint_var `
@@ -30,3 +30,6 @@ Solidity is a statically typed language i.e. each declared variable always has a
 * Local Variable: Values of these variables are present till the function executes and it cannot be accessed outside that function. This type of variable is usually used to store temporary values.
 
 * Global Variable: These are some special variables that can be used globally and give information about the transactions and blockChain properties.
+
+# CHECK OUT HOW IT IS USED
+[variable](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/3.Variable/variable.sol)
