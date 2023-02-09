@@ -39,6 +39,7 @@ Developers should never let an array in Solidity grow too large because iteratin
 Nested mapping is mapping from one mapping to another. For example, if we have a username and age and want to store this information with the assistance of a special ID so that others can only get it with the aid of that ID, this is known as double mapping in Solidity.
 
 Here is one nested mapping example:
+[Nested](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/5.Mapping/nestedmap.solhttps://github.com/BernardOnuh/100DaysOfSolidity/blob/main/5.Mapping/nestedmap.sol)
 
 In this contract, we built one nested mapping, which is referred to as a User. In that mapping, we linked two mappings:
 
@@ -54,3 +55,5 @@ Here is an example of using mappings in Solidity. The following code snippet fun
 * Resetting the value to the default value.
 * Creating a nested mapping from address to another mapping
 * Getting values from a nested mapping even when it is not initialized
+
+[Mapping Example](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/5.Mapping/mapping.sol)
