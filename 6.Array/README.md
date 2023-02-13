@@ -48,7 +48,7 @@ In general, numbering associated with elements begins at 0. This would mean that
 
 The restriction related to the same data type is important to remember because arrays are stored in consecutive memory cells, which implies that every cell must be of the same type and therefore, the same size. 
 
-[Example]()
+[Example](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/6.Array/array.sol)
 
 ### Mappings
 Mappings can be thought of as key and value stores where every possible key exists and any value can be set or retrieved in one move with the key. The KeyType can be any built-in value type (i.e., bytes, string, or any contract/enum type). The ValueType can be any type including mappings, arrays, and structs.
@@ -59,7 +59,8 @@ mapping(<insert KeyType> ⇒ <insert ValueType>) <insert VariableName>
 
 Note: that the only data location permitted for mapping variables is storage.
 [Example](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/5.Mapping/mapping.sol)
-**Members**
+
+### Members
 To find a specific member of an array means searching the array until the member is found. Developers should be aware of two important functions: length and push.
 
 ‍Length - returns the size of the array and can also be used to change the size of a dynamic array.
