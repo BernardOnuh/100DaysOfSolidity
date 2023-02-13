@@ -58,6 +58,8 @@ Mappings can be declared as follows:
 mapping(<insert KeyType> ⇒ <insert ValueType>) <insert VariableName>
 
 Note: that the only data location permitted for mapping variables is storage.
+
+
 [Example](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/5.Mapping/mapping.sol)
 
 ### Members
