@@ -2,7 +2,7 @@
 ![Alt DataTypes](https://media1.tenor.com/images/abaabc240df2563fb28b31f018d59bbb/tenor.gif?itemid=27530337)
 # There are two types of Data in Solidity 
 * 1-Value Types Solidity 
-* 2-Referenc Types Solidity
+* 2-Reference Types Solidity
 
 # ⭐ Value Types Solidity 
  Value-type data stores information directly in memory. The Variable are then associated with this value types allow duplication in assignment  or functions.
