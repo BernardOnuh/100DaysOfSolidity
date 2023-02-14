@@ -48,10 +48,16 @@ If the modifier of the ParentContract function is external, the inheriting Child
 
 ### What are function visibility modifiers
 1. **Public**:A public function can be accessed by any of the three types of calling contracts: main contract, derived contract, and a third party contract. A function is public by default.
+[Example](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/7.Visibility/visibility.sol)
+
 2. **External**:An external function is a function that can only be called by a third party. With the external function visibility, a contract that can call the function must be independent of the main contract and can not be a derived contract.
+[Example](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/7.Visibility/visibility.sol)
+
 3. **Internal**:An internal function can be called by the main contract and any of its derived contracts. Internal functions are accessible from the main contract in which they were initially declared and by the contracts that extend from this main contract through inheritance.
+[Example](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/7.Visibility/visibility.sol)
+
 4. **Private**:A private function can only be called by the main contract in which it was specified. Private functions are used initially according to common practice, but if the scope is wider than this modifier type, any other plausible modifier should be used.
-[Example]()
+[Example](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/7.Visibility/visibility.sol)
 
 ### What is the difference between function and state variable visibility modifiers
 The difference between function visibility modifiers and state variable visibility modifiers is that state variables do not have the external visibility modifier option. 
@@ -67,6 +73,8 @@ State variables declared with the internal modifier can only be accessed within 
 
 3. **Private**
 If a state variable is private, only the main contract in which they were declared can call them. The private visibility modifier restricts access from other parties apart from the main contract so that the data it holds is protected.
+
+[Example](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/7.Visibility/visibility.sol)
 
 ### What is the default variable visibility in Solidity?
 When the variable visibility is not defined, the default value is internal. It is best practice to declare a variable as private until the scope widens.
