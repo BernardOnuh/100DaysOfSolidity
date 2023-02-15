@@ -6,7 +6,7 @@ The Function visibility feature in Solidity smart contract is used to ensure tha
 If a developer doesn’t use the right function visibility type, or if no visibility model is specified in their code, the contract's default public visibility is exposed to potentially exploitable security vulnerabilities. Apart from the security implications of not having function visibility specified, smart contracts might not work as intended since the functions will be working without proper instructions
 
 ### Who can call a smart contract function 
-**There are three kid of contract that can call a function : the main contract itself, a contract inherited from the main contract (DerivedContract),and a third-party contract (OutsideContract).**
+**There are three kind of contract that can call a function : the main contract itself, a contract inherited from the main contract (DerivedContract),and a third-party contract (OutsideContract).**
 
 1. MainContract
 >contract DerivedContract is MainContract {
