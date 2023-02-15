@@ -22,4 +22,4 @@ Our first contract would allow us write the follwing on the blockchain
 - Our Name
 - Our Age
 
-[contract]()
+[contract](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/8.Contract/contract.sol)
