@@ -1,5 +1,5 @@
 ## CONTRACT IN SOLIDITY
-![Contract](https://media.tenor.com/images/1037f6bab48b90cddbd545f0eee545db/tenor.gif)
+![Contract](https://media1.tenor.com/images/b84dc4ed2481267c0a939652dda2486d/tenor.gif?itemid=27567662)
 ### What is Contract in Solidity ?
 A solidity contract is a block of code that contains functions and state variables. it is stored on a specific address on the Ethereum blockchain.
 
