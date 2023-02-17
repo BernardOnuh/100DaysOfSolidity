@@ -68,4 +68,4 @@ The following syntax shows you how to use emit in Solidity:
 **Once events are emitted, you can listen for them by subscribing to catch these events using ethers.js**. Then dApps, or anything connected to an Ethereum JSON-RPC API, can listen to these events and act accordingly.
 
 SOLIDITY EVENT EXAMPLES.
-[Solidity Event Example]()
+[Solidity Event Example](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/10.Events/event.sol)
