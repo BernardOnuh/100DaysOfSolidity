@@ -52,10 +52,10 @@ For instance, the following statement uses the require keyword so that only an o
 
 Using a modifier can achieve the exact same result, which would look like this: 
 
-<modifier onlyOwner() {
-    require(msg.sender == owner);
-    _;
-}>
+>modifier onlyOwner() {
+ >   require(msg.sender == owner);
+>  _;
+>}
 
 There are some important differences between require and Solidity modifiers:
 
@@ -93,4 +93,4 @@ When using a modifier, you first need to define the modifier function in a contr
 
 The contract below demonstrates how to use a modifier:
 
-[Example]()
+[Example](https://github.com/BernardOnuh/100DaysOfSolidity/tree/main/11.Modifiers)
