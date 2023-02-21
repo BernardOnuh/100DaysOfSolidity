@@ -80,4 +80,9 @@ Here is a summary that provides a succinct description of all all three Solidity
 - Used at the end of a function
 - Validates something that is impossible 
 - Critical for static code analysis tools 
-- Does not refund leftover gas
+- Does not refund leftover gas.
+
+[Example1](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/12.HandleErrors/handleerror.sol)
+
+[Examole2](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/12.HandleErrors/handleerror1.sol)
+
