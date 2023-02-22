@@ -34,7 +34,7 @@ The responses are also in the bytecode so interpretation is required before it i
 ## How to use ABI?
 If you are using tooling like Hardhart/Truffle or an IDE like Remix, the contract ABI is automatically generated for you. You can also manually create the ABI by using the Solidity Compiler NPM package. After installing the package, you can run the ‘solcjs contractname.sol --abi’ command in a terminal. This will generate an .abi file if performed successfully. 
 
-Now that you have a generated ABI, let's look at some of the elements in this file:
+Now that you have a generated ABI, let's look at some of the elements in this file:[here](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/13.ContractABI/contractABI.json)
 
 ## Executing
 As ABI operates as the interpreter between the EVM bytecode and Javascript of a website,  it is needed when you want to execute any functions of a smart contract. In addition to the ABI, the contract's address on the blockchain is required. Here is a small Javascript code snippet to show how this is done:
@@ -44,4 +44,4 @@ As ABI operates as the interpreter between the EVM bytecode and Javascript of a 
 ## Encoding 
 Since all communication is done in bytecode, it would be difficult to expect developers to encode these messages themselves. Fortunately, popular compilers like Remix can also handle the encoding for you. These encodings follow a certain pattern, so one can have a better idea of what is going on by reviewing the ABI Specification.
 
-The first four bytes are the function signature which indicates what type of function in the smart contract is being executed. A popular function identifier is a9059cbb which indicates that this is an ERC20 transfer. There is a database directory of function signatures here where you can explore more. 
+The first four bytes are the function signature which indicates what type of function in the smart contract is being executed. A popular function identifier is a9059cbb which indicates that this is an ERC20 transfer. There is a database directory of function signatures here where you can explore more. You can see an example of that [here](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/13.ContractABI/encoding)
