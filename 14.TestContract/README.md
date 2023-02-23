@@ -15,7 +15,7 @@ but in I will be focusing on two in this repository which are:
 
 ### How to use REMIX
 
-We would be testing this [Contract]() on REMIX test network,
+We would be testing this [Contract](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/14.TestContract/zkEVMToken.sol) on REMIX test network,
 The contract entails how to create a token on the blockcahin which has been made easy, gas optimized and secure with
 [OpenZepplin](https://docs.openzeppelin.com)
 
@@ -31,7 +31,7 @@ Now lets use remix to test our smart contract
 
 - create a new file in [remix](https://remix.ethereum.org/) environment
 - name and save the file with the extention .sol e.g `zkEVMToken.sol`
-- Paste the code you genrated from [OpenZepplin](https://docs.openzeppelin.com/contracts/4.x/wizard) or use this [zkEVMToken.sol]().
+- Paste the code you genrated from [OpenZepplin](https://docs.openzeppelin.com/contracts/4.x/wizard) or use this [zkEVMToken.sol](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/14.TestContract/zkEVMToken.sol).
 ![newfile1](https://media1.tenor.com/images/967b9f35bfcaf10d0f33a55de7e8a9b7/tenor.gif?itemid=27602792)
 
 ### Step 2
