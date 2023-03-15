@@ -16,7 +16,7 @@ This command runs an interactive setup process for us to get started.
 
 ![Alt Create](https://cdn.hashnode.com/res/hashnode/image/upload/v1660286783799/0ll5amhAi.png)
 
-After creating your contract you can now check your solidity smartcontract code [here]()
+After creating your contract you can now check your solidity smartcontract code [here](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/DeployNFT/contract.sol)
 
 ## Release & Deploy
 The CLI allows us to deploy our contracts  without any additional configuration or use of private keys. Let's see how we can do it.
@@ -68,7 +68,7 @@ You can see how I've configured these below:
 
 # Hurray you've successfully deployed your smart contract.
 
-# Deploy your NFT contract using REMIX
+## Deploy your NFT contract using REMIX
 
-We've discussed about this before [here]()
+We've discussed about this before [here](https://github.com/BernardOnuh/100DaysOfSolidity/tree/main/15.DeployContract)
 compile and deploy using REMIX.
