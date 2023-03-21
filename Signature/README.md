@@ -31,6 +31,6 @@ npm install @openzeppelin/contracts
 
 - After Installing it's now time for usage,now lets go to the wizard [here](https://docs.openzeppelin.com/contracts/4.x/wizard) and select ERC721 and add the features you'll like to use.
 
-- Copy your code and paste in contract.sol now you have an audited and trusted contract like the one we have [here]()
+- Copy your code and paste in contract.sol now you have an audited and trusted contract like the one we have [here](https://github.com/BernardOnuh/100DaysOfSolidity/blob/main/NFTCONTRACT/nftcontract.sol)
 
 Now we've complete the first step we proceed tomorrow.
