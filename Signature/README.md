@@ -161,3 +161,46 @@ Finally, let's give the wallet that deploys this contract the role. We'll also g
 Awesome! Now when we deploy this contract, we'll be set up with both roles and only we will be able to call the setNickname function.
 
 Let's deploy it now!
+
+
+## Deploy Smart Contract
+
+Now lets deploy our Smart Contract to the blockchain
+
+```bash
+yarn deploy
+# or
+npx deploy latest
+```
+your contract would be sent to IPFS where we would get it back with Thirdweb and deploy it to the blockchain.
+
+![Alt image2](https://cdn.hashnode.com/res/hashnode/image/upload/v1659940293615/TY91k9izf.png)
+
+copy the link in blue
+
+This is my link [here](https://thirdweb.com/mumbai/0x78A7a9301aD93047bC7Bb527c9dd5f3deb9f98AE/code)
+
+Go ahead and Click the URL or Copy and paste on your browser
+
+Here  you will you'll fill in the constructors which are
+
+- Project Name
+- Royalty address
+- Royalty Percentage
+
+Select the chain you would like to use, I will advice first try it on a test network e.g
+- Sepolia
+- Mumbai
+- Arbitrum Goerli
+- Note Goerli ETH isn't working functionally now.
+
+![Alt image3](https://cdn.hashnode.com/res/hashnode/image/upload/v1659940689686/s3sAYjzz0.png)
+
+
+After Deploying your contract and adding to dashboard we can now to add our Metadata,Upload our NFTs and Interact with our Smart Contract.
+
+Head over to **SOURCE** and fill in detais and metadata of your NFTs.
+![Alt image4](https://cdn.hashnode.com/res/hashnode/image/upload/v1660287789359/wehQlrOtl.png)
+
+after you are done you should have something like this: [here](https://thirdweb.com/mumbai/0x78A7a9301aD93047bC7Bb527c9dd5f3deb9f98AE/code)
+[](https://thirdweb.com/mumbai/0x78A7a9301aD93047bC7Bb527c9dd5f3deb9f98AE/code)
