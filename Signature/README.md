@@ -204,3 +204,5 @@ Head over to **SOURCE** and fill in detais and metadata of your NFTs.
 
 after you are done you should have something like this: [here](https://thirdweb.com/mumbai/0x78A7a9301aD93047bC7Bb527c9dd5f3deb9f98AE/code)
 [](https://thirdweb.com/mumbai/0x78A7a9301aD93047bC7Bb527c9dd5f3deb9f98AE/code)
+
+We've Finally created our minting site check it out [here](https://signature-amber.vercel.app/)
